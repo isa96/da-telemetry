@@ -32,5 +32,4 @@ Here are the steps that I need to take:
 7. Create a Dashboard with the 2 previous sheets and set the first chart to be used as a filter (selecting factory in the first chart, shows only the down time of the machines in this factory there in the second chart).
 8. Select the factory with the most down time (click on its bar), make a screenshot of the dashboard and upload it as a submission for this task.
 
-## References
-Deloitte. (2023). Technology. [Forage](https://www.theforage.com/virtual-internships/prototype/YPWCiGNTkr6QxcpEu/Technology?ref=MJvCdpjrnuozuJWcn).
+

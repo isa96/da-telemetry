@@ -1,0 +1,40 @@
+2: Data Analysis
+Build a dashboard to explore the client's telemetry data.
+
+# Background Information
+Having your data unification algorithm, Daikibo's tech team has converted all telemetry data collected from the 4 factories of the company:
+
+	Daikibo Factory Meiyo (Tokyo, Japan)
+	Daikibo Factory Seiko (Osaka, Japan)
+	Daikibo Berlin (Berlin, Germany)
+	Daikibo Shenzhen (Shenzhen, China)
+	Each location has 9 types of machines, sending a message every 10 min. Daikibo has been collecting this data for 1 month (May 2021) and they've just shared this data in the form of a single JSON file.
+
+The reason this client wanted to collect telemetry was to answer 2 questions:
+
+	1. In which location did machines break the most?
+	2. What are the machines that broke most often in that location?
+
+# Task Brief
+Your second task is to analyse the telemetry data collected by Daikibo (and unified with your algorithm) in a software called Tableau. Here are the steps that you need to take:
+
+	1. Download the 1 year free trial of Tableau. (Link in the Resources, Gmail account works)
+	2. Install Tableau on your computer and register an account with the same email you used to download the software.
+	3. Download the daikibo-telemetry-data.json.zip file -> unzip -> and import it in Tableau.
+	4. Create a calculated measure field "Unhealthy" with the value of 10 for every unhealthy status (representing 10min of potential down time since the previous message).
+	5. Create a bar-chart: Down Time per Factory.
+	6. Create new sheet with a new bar-chart: Down Time per Device Type.
+	7. Create a Dashboard with the 2 previous sheets and set the first chart to be used as a filter (selecting factory in the first chart, shows only the down time of the machines in this factory there in the second chart).
+	8. Select the factory with the most down time (click on its bar), make a screenshot of the dashboard and upload it as a submission for this task.
+
+Aside from all the external learning resources, and especially if you have no prior experience with analytics software - please find a step-by-step Task Guide pdf attached in the Resources section to help you out.
+
+# Task Resources
+	Task 2 Guide
+	https://cdn.theforage.com/vinternships/companyassets/9PBTqmSxAf6zZTseP/Task%202%20Guide.pdf
+
+	Daikibo's Telemetry Data
+	https://cdn.theforage.com/vinternships/companyassets/9PBTqmSxAf6zZTseP/daikibo-telemetry-data.json.zip
+	
+	Tableau Download
+	https://www.tableau.com/academic/students
